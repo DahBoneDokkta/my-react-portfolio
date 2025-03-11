@@ -51,6 +51,53 @@
     background-size: 0 100%;
 }
 
+/* Fixing the design issue with UI Icon */
+.aboutItem img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+    margin-right: 20px; 
+}
+
+/* Ensure the text takes up the remaining space */
+/* .aboutItemText {
+    flex: 1; 
+} */
+
 .aboutItem:hover {
     background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+.aboutItem p {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .aboutItems {
+        margin-top: 29px;
+    }
+
+    .aboutItems {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
