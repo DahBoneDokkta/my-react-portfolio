@@ -1,34 +1,34 @@
 [
     {
+        "title": "C#",
+        "imageSrc": "skills/csharp.png"
+      },
+    {
+        "title": ".NET Core",
+        "imageSrc": "skills/NETcore.png"
+      },
+    {
       "title": "HTML",
-      "imageSrc": "skills/html.png"
+      "imageSrc": "skills/HTML5.png"
     },
     {
       "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-      "title": "C#",
-      "imageSrc": "skills/C#.png"
+      "imageSrc": "skills/CSS3.png"
     },
     {
       "title": "React",
-      "imageSrc": "skills/react.png"
+      "imageSrc": "skills/React.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "skills/JavaScript.png"
     },
     {
       "title": "Node",
-      "imageSrc": "skills/node.png"
+      "imageSrc": "skills/nodejs.png"
     },
     {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
-    },
-    {
-      "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
-    },
-    {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
+      "title": "SQL",
+      "imageSrc": "skills/sql.png"
     }
   ]
