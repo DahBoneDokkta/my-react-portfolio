@@ -14,6 +14,15 @@ export const Navbar = () => {
   //   setMenuOpen(false); // Close the menu if it's open
   // };
 
+  const handleLinkClick = (event, id) => {
+    event.preventDefault(); // Prevent default anchor link behavior
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    setMenuOpen(false); // Close the menu
+  };
+
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
@@ -21,26 +30,23 @@ export const Navbar = () => {
       </a>
       <div className={styles.menu}>
         <img className={styles.menuBtn}
-          src={menuOpen
-            ? getImageUrl("nav/closeIcon.png")
-            : getImageUrl("nav/menuIcon.png")
-          }
+          src={menuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png")}
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" onClick={(e) => handleLinkClick(e, 'about')}>About</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience" onClick={(e) => handleLinkClick(e, 'experience')}>Experience</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" onClick={(e) => handleLinkClick(e, 'projects')}>Projects</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={(e) => handleLinkClick(e, 'contact')}>Contact</a>
           </li>
         </ul>
       </div>
