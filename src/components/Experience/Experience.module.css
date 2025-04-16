@@ -18,17 +18,17 @@
 .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     margin-top: 14px;
+    align-items: flex-start;
+    gap: 5%;
 }
 
 .skills {
     width: 45%;
     display: flex;
     flex-wrap: wrap;
-    /* gap: 37px; */
-    row-gap: 20px;
-    column-gap: 37px;
+    gap: 37px;
 }
 
 .skill {
@@ -65,10 +65,11 @@
 }
 
 .history {
-    width: 45%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    /* align-self: flex-start; TEST */
 }
 
 .historyItem {
@@ -111,6 +112,21 @@
 
 .historyItemDetails ul li {
     margin-bottom: 6px;
+}
+
+.experienceNote {
+    margin-top: 40px;
+    color: var(--color-text);
+    font-family: var(--font-roboto);
+    font-size: 20px;
+    line-height: 1.7;
+    max-width: 90%;
+    opacity: 0.9;
+}
+
+.experienceNote h3 {
+    font-size: 28px;
+    margin-bottom: 16px;
 }
 
 

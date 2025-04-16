@@ -28,8 +28,8 @@ export const About = () => {
                             <div className={styles.aboutItemText}>
                                 <h3>Frontend Developer</h3>
                                 <p>
-                                    I'm a frontend developer with experience in building responsive
-                                    and optimized sites
+                                    I enjoy building responsive, accessible interfaces using React.
+                                    I focus on reusable components, clean structure, and user-friendly layouts.
                                 </p>
                             </div>
                         </li>
@@ -38,17 +38,18 @@ export const About = () => {
                             <div className={styles.aboutItemText}>
                                 <h3>Backend Developer</h3>
                                 <p>
-                                    I have experience developing fast and optimized backend systems
-                                    and APIs
+                                    I've worked with C# and .NET to build APIs and backend logic.
+                                    I care about writing maintainable code and building solid architectures
                                 </p>
                             </div>
                         </li>
                         <li className={styles.aboutItem}>
                             <img src={getImageUrl("about/cursoricon.png")} alt="UI icon" />
                             <div className={styles.aboutItemText}>
-                                <h3>UI Designer</h3>
+                                <h3>Tech Explorer</h3>
                                 <p>
-                                    I designed multiple landing pages
+                                    I'm always curious to learn new things - lately I've explored cybersecurity,
+                                    dev tools, and architecture patterns
                                 </p>
                             </div>
                         </li>

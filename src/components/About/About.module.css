@@ -82,7 +82,7 @@
     font-family: var(--font-roboto);
     font-weight: 300;
     max-width: 800px;
-    margin-bottom: 0;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 830px) {

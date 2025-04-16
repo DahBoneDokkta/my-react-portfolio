@@ -5,8 +5,10 @@
     "startDate": "Feb, 2025",
     "endDate": "Present",
     "experiences": [
-      "Worked on Google Maps",
-      "Reduced load times by 50%"
+      "Continued working on PassAppen from my first internship period",
+      "Contributed to key features in both frontend and backend",
+      "Improved existing code by refactoring and cleaning up components",
+      "Participated in team planning, reviews and collaborative problem solving"
     ],
     "imageSrc": "history/knowitLogo.png"
   },
@@ -16,8 +18,9 @@
     "startDate": "Oct, 2024",
     "endDate": "Nov, 2024",
     "experiences": [
-      "Worked on Windows 11",
-      "Designed the control panel"
+      "Joined an agile team working on PassAppen, an internal app used by a figure skating club",
+      "Fixed UI bugs and implemented features using Angular and .NET",
+      "Learned Git workflows and participated in code reviews"
     ],
     "imageSrc": "history/knowitLogo.png"
   },
