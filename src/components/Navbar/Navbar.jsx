@@ -5,15 +5,6 @@ import { getImageUrl } from '../../utils';
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // FOR SMOOTH SCROLLING TO SECTIONS
-  // const scrollToSection = (id) => {
-  //   const section = document.getElementById(id);
-  //   if (section) {
-  //     section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  //   }
-  //   setMenuOpen(false); // Close the menu if it's open
-  // };
-
   const handleLinkClick = (event, id) => {
     event.preventDefault(); // Prevent default anchor link behavior
     const section = document.getElementById(id);

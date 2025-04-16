@@ -50,15 +50,36 @@
     .container {
         flex-direction: column;
         gap: 23px;
+        padding: 20px;
+        /* Reduce padding for smaller screens */
+        width: 100%;
+        /* Prevent horizontal overflow */
+        box-sizing: border-box;
+        /* Ensure padding is included in width */
     }
 
     .text {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
+        /* Center-align text content */
     }
 
     .links {
         align-items: center;
+        /* Center-align the links */
+    }
+
+    .link {
+        flex-direction: column;
+        /* Stack icon and text vertically */
+        gap: 10px;
+        /* Reduce gap between icon and text */
+    }
+
+    .link a {
+        font-size: 20px;
+        /* Reduce font size for smaller screens */
     }
 }
