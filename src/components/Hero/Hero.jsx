@@ -7,9 +7,9 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I'm Simon</h1>
-                <p className={styles.description}>I'm a fullstack developer soon graduating from a two-year .NET program at Teknikhögskolan in Gävle.
-                    I've gained hands-on experience through two internships and personal projects like this portfolio.
-                    I’m passionate about learning, building useful things, and writing clean, maintainable code.
+                <p className={styles.description}>I'm a soon-to-be fullstack .NET developer, graduating from Teknikhögskolan in Gävle.
+                    Through two internships and personal projects like this portfolio, I've gained practical experience and a passion for writing clean, useful code.
+                    <br />
                     Let’s connect!
                 </p>
                 <a href="mailto:simon.arnar@gmail.com" className={styles.ContactBtn}>
