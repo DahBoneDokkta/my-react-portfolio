@@ -10,10 +10,10 @@ export const Contact = () => {
                 <p>Feel free to reach out!</p>
             </div>
             <ul className={styles.links}>
-                <li className={styles.link}>
+                {/* <li className={styles.link}>
                     <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-                    <a href="mailto:simon.arnar@gmail.com">simon.arnar@gmail.com</a>
-                </li>
+                    <a href=""></a>
+                </li> */}
                 <li className={styles.link}>
                     <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon" />
                     <a href="https://www.linkedin.com/in/simon-arnar/">linkedin.com/simon-arnar</a>
