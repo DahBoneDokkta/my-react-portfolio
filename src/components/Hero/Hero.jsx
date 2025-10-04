@@ -7,8 +7,8 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I'm Simon</h1>
-                <p className={styles.description}>With two internships at Knowit and several hands-on projects, I build pragmatic, maintainable solutions. I work across backend and frontend, SQL Server and CI/CD pipelines, and I have practical experience with network analysis and lab environments.
-                    Let’s connect - I’m open to roles in system operations, backend development and security-minded engineering.
+                <p className={styles.description}>I'm a soon-to-be fullstack .NET developer, graduating from Teknikhögskolan in Gävle.
+                    Through two internships and personal projects like this portfolio, I've gained practical experience and a passion for writing clean, useful code.
                     <br />
                     Let’s connect!
                 </p>
