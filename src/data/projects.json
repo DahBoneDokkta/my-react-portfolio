@@ -1,38 +1,33 @@
 [
     {
-        "title": "Project A",
-        "imageSrc": "projects/projectDemo.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "title": "Wi-Fi Security Testing: Evil Twin & VPN Protection",
+        "imageSrc": "projects/MangoApple.png",
+        "description": "Built a custom OpenWRT lab with a GL.iNet Mango router and Pineapple clone to simulate Evil Twin attacks and test how VPN encryption protects against Man-in-the-Middle exploits",
         "skills": [
-            "React",
-            "Express",
-            "Node"
+            "OpenWRT",
+            "Linux",
+            "WireShark",
+            "VPN"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "demo": "/assets/reports/WiFiSecurityReport.pdf",
+        "source": "https://github.com/DahBoneDokkta/wifi-evil-twin-vpn-protection/blob/main/README.md"
     },
     {
-        "title": "Project B",
-        "imageSrc": "projects/projectDemo.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "title": "Garmin Watch App",
+        "imageSrc": "projects/GarminVenu3.jpg",
+        "description": "Work in progress... Developing a Garmin watch app using Monkey C to help with productivity and time management with the Pomodoro Technique.",
         "skills": [
-            "React",
-            "Express",
-            "Node",
-            "Sass"
+            "Monkey C",
+            "Garmin SDK"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "demo": "",
+        "source": ""
     },
     {
-        "title": "Project C",
+        "title": "Coming soon",
         "imageSrc": "projects/projectDemo.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": [
-            "React",
-            "Express",
-            "Node"
-        ],
+        "description": "Stay tuned for more projects coming soon.",
+        "skills": [],
         "demo": "https://www.example.com",
         "source": "https://www.github.com"
     }
